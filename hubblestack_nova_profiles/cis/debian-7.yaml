@@ -22,7 +22,7 @@ grep:
         Debian*7:
           - '/proc/mounts':
               tag: CIS-2.14
-              pattern: '/dev/shm'
+              pattern: '/run/shm'
               match_output: 'nodev'
       description: Add nodev Option to /run/shm Partition
     mounts_dev_shm_partition_nosuid:
@@ -30,7 +30,7 @@ grep:
         Debian*7:
           - '/proc/mounts':
               tag: CIS-2.15
-              pattern: '/dev/shm'
+              pattern: '/run/shm'
               match_output: 'nosuid'
       description: Add nosuid Option to /run/shm Partition
     mounts_dev_shm_partition_noexec:
@@ -38,7 +38,7 @@ grep:
         Debian*7:
           - '/proc/mounts':
               tag: CIS-2.16
-              pattern: '/dev/shm'
+              pattern: '/run/shm'
               match_output: 'noexec'
       description: Add noexec Option to /run/shm Partition
     mounts_tmp_partition_nodev:
@@ -103,7 +103,7 @@ grep:
             tag: CIS-9.2.1
         - /etc/pam.d/common-password:
             pattern: pam_cracklib.so
-            match_output: minlen=14
+            match_output: minlen=12
             tag: CIS-9.2.1
         - /etc/pam.d/common-password:
             pattern: pam_cracklib.so
@@ -128,7 +128,7 @@ grep:
           - '/etc/pam.d/common-password':
               tag: CIS-9.2.3
               pattern: "remember"
-              match_output: "5"
+              match_output: "10"
       description: Limit Password Reuse
     passwd_expiration_days:
       data:
@@ -462,6 +462,53 @@ service:
         Debian*7:
         - rsync: CIS-6.16
       description: Ensure rsync service is not enabled
+    cups-disabled:
+      data:
+        Debian*7:
+        - cups: CIS-6.3
+      description: Ensure print server is not enabled
+    ldap-server-disabled:
+      data:
+        Debian*7:
+        - slapd: CIS-6.6
+      description: Ensure LDAP server is not enabled
+    dns-server-disabled:
+      data:
+        Debian*7:
+        - bind9: CIS-6.8
+      description: Ensure DNS Server is not enabled
+    ftp-server-disabled:
+      data:
+        Debian*7:
+        - vsftpd: CIS-6.9
+      description: Ensure FTP Server is not enabled
+    imap-pop3-server-disabled:
+      data:
+        Debian*7:
+        - dovecot: CIS-6.11
+      description: Ensure IMAP and POP3 server is not enabled
+    samba-server-disabled:
+      data:
+        Debian*7:
+        - samba: CIS-6.12
+      description: Ensure Samba is not enabled
+    http-proxy-server-disabled:
+      data:
+        Debian*7:
+        - squid: CIS-6.13
+      description: Ensure HTTP Proxy Server is not enabled
+    snmp-server-disabled:
+      data:
+        Debian*7:
+        - snmpd: CIS-6.14
+      description: Ensure SNMP Server is not enabled
+    nfs-rpcbind-disabled:
+      data:
+        Debian*7:
+        - nfs-kernel-server: CIS-6.7
+        - rpcbind: CIS-6.7
+      description: Ensure NFS and RPC are not enabled
+    
   whitelist:
     rsyslog-enabled:
       data:
