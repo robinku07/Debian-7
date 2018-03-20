@@ -1,0 +1,76 @@
+backuppc - high-performance, enterprise-grade system for backing up PCs
+bootcd - run your system from cd without need for disks
+collectd-core - statistics collection and monitoring daemon (core system)
+collectl - Utility to collect Linux performance data
+daemonfs - real time monitoring software
+diod - I/O forwarding server for 9P
+dracut - A new initramfs infrastructure
+dracut-network - A new initramfs infrastucture
+dsniff - Various tools to sniff network traffic for cleartext insecurities
+fai-nfsroot - Fully Automatic Installation nfsroot package
+fam - File Alteration Monitor
+gfarm-client - Gfarm file system clients
+gfarm-doc - Gfarm file system documentation
+gfmd - Gfarm file system metadata server
+gfsd - Gfarm file system daemon
+gnats-user - problem report management system - client tools
+gnome-system-tools - Cross-platform configuration utilities for GNOME
+goto-fai - Scripts to integrate GOto with FAI
+initramfs-tools - generic modular initramfs generator
+jftp - Java GUI client for FTP, SMB, SFTP and NFS
+kdenetwork-filesharing - network filesharing configuration module
+libfile-fcntllock-perl - Perl module for file locking with fcntl(2)
+libfile-nfslock-perl - perl module to do NFS (or not) locking
+libgfarm1 - Gfarm file system runtime library
+libgfarm-dev - Gfarm file system development files
+libio-aio-perl - asynchronous IO module for Perl
+liblockfile1 - NFS-safe locking library
+libnfs1 - NFS client library (shared library)
+libnfs-dev - NFS client library (development files)
+libnfsidmap2 - NFS idmapping library
+libnfsidmap-dev - header files and docs for libnfsidmap
+libposixlock-ruby1.8 - posix locking for ruby
+libposixlock-ruby - posix locking for ruby
+libsys-gamin-perl - Perl interface to Gamin (File Access Monitor implementation)
+libtirpc1 - transport-independent RPC library
+libtirpc-dev - transport-independent RPC library - development files
+libyanfs-java - Yet Another NFS - a Java NFS library
+manpages-de - German manpages
+manpages-fr - French version of the manual pages about using GNU/Linux
+manpages - Manual pages about using a GNU/Linux system
+manpages-pl - Polish man pages
+manpages-pt - Portuguese Versions of the Manual Pages
+manpages-tr - Turkish version of the manual pages
+mb2md - Converting Mbox mailboxes to Maildir format
+mhddfs - file system for unifying several mount points into one
+nbd-client - Network Block Device protocol - client
+nbd-server - Network Block Device protocol - server
+nfs4-acl-tools - Commandline and GUI ACL utilities for the NFSv4 client
+nfs-common - NFS support files common to client and server
+nfs-kernel-server - support for NFS kernel server
+nfswatch - Program to monitor NFS traffic for the console
+nmon - performance monitoring tool for Linux
+petitboot - ncurses version of petitboot, a kexec based bootloader
+petitboot-twin - Twin GUI version of petitboot, a kexec based bootloader
+plptools - Access EPOC device (Psion PDA) over a serial link
+portsentry - Portscan detection daemon
+python3-flufl.lock - NFS-safe file-based lock with timeouts (Python 3)
+python-django-localeurl - Django application allows the language be set in the URL
+python-flufl.lock-doc - NFS-safe file-based lock with timeouts (common documentation)
+python-flufl.lock - NFS-safe file-based lock with timeouts (Python 2)
+quota - disk quota management tools
+ruby-lockfile - create NFS-safe lockfiles
+sbrshd - Scratchbox Remote Shell daemon
+sbrsh - Scratchbox Remote Shell client
+slack - configuration management program for lazy admins
+sysstat - system performance tools for Linux
+task-file-server - File server
+tcpdump - command-line network traffic analyzer
+texlive-latex-base - TeX Live: Basic LaTeX packages
+texlive-latex-extra - TeX Live: LaTeX supplementary packages
+texlive-plain-extra - TeX Live: Plain TeX supplementary packages
+tiger-otheros - Scripts to run Tiger in other operating systems
+udpcast - multicast file transfer tool
+unburden-home-dir - Remove or move cache files automatically from user's home
+unionfs-fuse - Fuse implementation of unionfs
+vbackup - modular backup utility
